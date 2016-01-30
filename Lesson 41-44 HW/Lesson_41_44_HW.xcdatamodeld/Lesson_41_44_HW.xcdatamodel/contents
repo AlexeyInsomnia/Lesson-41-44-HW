@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Automatic">
+    <entity name="APCourses" representedClassName="APCourses" syncable="YES">
+        <attribute name="industry" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="object" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="students" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="APStudents" inverseName="courses" inverseEntity="APStudents" syncable="YES"/>
+        <relationship name="teacher" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="APTeachers" inverseName="courses" inverseEntity="APTeachers" syncable="YES"/>
+    </entity>
+    <entity name="APStudents" representedClassName="APStudents" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="courses" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="APCourses" inverseName="students" inverseEntity="APCourses" syncable="YES"/>
+    </entity>
+    <entity name="APTeachers" representedClassName="APTeachers" syncable="YES">
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="courses" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="APCourses" inverseName="teacher" inverseEntity="APCourses" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="APStudents" positionX="-1512" positionY="-18" width="128" height="103"/>
+        <element name="APCourses" positionX="-1287" positionY="-126" width="128" height="118"/>
+        <element name="APTeachers" positionX="-1118" positionY="-25" width="128" height="88"/>
+    </elements>
+</model>

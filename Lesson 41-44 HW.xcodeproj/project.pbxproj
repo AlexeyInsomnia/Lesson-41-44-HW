@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FACF67D71C5BAFEC00EDFF85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF67D61C5BAFEC00EDFF85 /* main.m */; };
+		FACF67DA1C5BAFEC00EDFF85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF67D91C5BAFEC00EDFF85 /* AppDelegate.m */; };
+		FACF67E01C5BAFEC00EDFF85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACF67DE1C5BAFEC00EDFF85 /* Main.storyboard */; };
+		FACF67E31C5BAFEC00EDFF85 /* Lesson_41_44_HW.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FACF67E11C5BAFEC00EDFF85 /* Lesson_41_44_HW.xcdatamodeld */; };
+		FACF67E51C5BAFEC00EDFF85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACF67E41C5BAFEC00EDFF85 /* Assets.xcassets */; };
+		FACF67E81C5BAFEC00EDFF85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACF67E61C5BAFEC00EDFF85 /* LaunchScreen.storyboard */; };
+		FACF67F31C5BAFEC00EDFF85 /* Lesson_41_44_HWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF67F21C5BAFEC00EDFF85 /* Lesson_41_44_HWTests.m */; };
+		FACF67FE1C5BAFEC00EDFF85 /* Lesson_41_44_HWUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF67FD1C5BAFEC00EDFF85 /* Lesson_41_44_HWUITests.m */; };
+		FACF68171C5BB55400EDFF85 /* Add_user.png in Resources */ = {isa = PBXBuildFile; fileRef = FACF680E1C5BB55400EDFF85 /* Add_user.png */; };
+		FACF68181C5BB55400EDFF85 /* Add_user_24px.png in Resources */ = {isa = PBXBuildFile; fileRef = FACF680F1C5BB55400EDFF85 /* Add_user_24px.png */; };
+		FACF68191C5BB55400EDFF85 /* Add_user_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = FACF68101C5BB55400EDFF85 /* Add_user_selected.png */; };
+		FACF681A1C5BB55400EDFF85 /* Courses.png in Resources */ = {isa = PBXBuildFile; fileRef = FACF68111C5BB55400EDFF85 /* Courses.png */; };
+		FACF681B1C5BB55400EDFF85 /* Courses_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = FACF68121C5BB55400EDFF85 /* Courses_selected.png */; };
+		FACF681C1C5BB55400EDFF85 /* Students.png in Resources */ = {isa = PBXBuildFile; fileRef = FACF68131C5BB55400EDFF85 /* Students.png */; };
+		FACF681D1C5BB55400EDFF85 /* Students_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = FACF68141C5BB55400EDFF85 /* Students_selected.png */; };
+		FACF681E1C5BB55400EDFF85 /* Teacher.png in Resources */ = {isa = PBXBuildFile; fileRef = FACF68151C5BB55400EDFF85 /* Teacher.png */; };
+		FACF681F1C5BB55400EDFF85 /* Teacher_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = FACF68161C5BB55400EDFF85 /* Teacher_selected.png */; };
+		FACF68221C5BB89300EDFF85 /* APSharedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF68211C5BB89300EDFF85 /* APSharedManager.m */; };
+		FACF68251C5BCC4800EDFF85 /* APCoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF68241C5BCC4800EDFF85 /* APCoreDataViewController.m */; };
+		FACF68331C5BDA6000EDFF85 /* APStudents+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF68281C5BDA6000EDFF85 /* APStudents+CoreDataProperties.m */; };
+		FACF68341C5BDA6000EDFF85 /* APStudents.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF682A1C5BDA6000EDFF85 /* APStudents.m */; };
+		FACF68351C5BDA6000EDFF85 /* APTeachers+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF682C1C5BDA6000EDFF85 /* APTeachers+CoreDataProperties.m */; };
+		FACF68361C5BDA6000EDFF85 /* APTeachers.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF682E1C5BDA6000EDFF85 /* APTeachers.m */; };
+		FACF68371C5BDA6000EDFF85 /* APCourses+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF68301C5BDA6000EDFF85 /* APCourses+CoreDataProperties.m */; };
+		FACF68381C5BDA6000EDFF85 /* APCourses.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF68321C5BDA6000EDFF85 /* APCourses.m */; };
+		FACF683B1C5BDB2000EDFF85 /* APStudentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF683A1C5BDB2000EDFF85 /* APStudentsViewController.m */; };
+		FACF683F1C5BEA9C00EDFF85 /* APAddStudentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF683E1C5BEA9C00EDFF85 /* APAddStudentTableViewController.m */; };
+		FACF68421C5BF4CF00EDFF85 /* APChooseCourseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF68411C5BF4CF00EDFF85 /* APChooseCourseTableViewController.m */; };
+		FACF68451C5C086200EDFF85 /* APAddCourseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF68441C5C086200EDFF85 /* APAddCourseTableViewController.m */; };
+		FACF68481C5C0AB300EDFF85 /* APAddTeacherTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF68471C5C0AB300EDFF85 /* APAddTeacherTableViewController.m */; };
+		FACF684B1C5C0C5800EDFF85 /* APCoursesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF684A1C5C0C5800EDFF85 /* APCoursesTableViewController.m */; };
+		FACF684E1C5C0DB600EDFF85 /* APTeachersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF684D1C5C0DB600EDFF85 /* APTeachersTableViewController.m */; };
+		FADDD1A41C5CBFB500CFE5FC /* students2.png in Resources */ = {isa = PBXBuildFile; fileRef = FADDD19E1C5CBFB500CFE5FC /* students2.png */; };
+		FADDD1A51C5CBFB500CFE5FC /* teacher2.png in Resources */ = {isa = PBXBuildFile; fileRef = FADDD19F1C5CBFB500CFE5FC /* teacher2.png */; };
+		FADDD1A61C5CBFB500CFE5FC /* courses1.png in Resources */ = {isa = PBXBuildFile; fileRef = FADDD1A01C5CBFB500CFE5FC /* courses1.png */; };
+		FADDD1A71C5CBFB500CFE5FC /* courses2.png in Resources */ = {isa = PBXBuildFile; fileRef = FADDD1A11C5CBFB500CFE5FC /* courses2.png */; };
+		FADDD1A81C5CBFB500CFE5FC /* students1.png in Resources */ = {isa = PBXBuildFile; fileRef = FADDD1A21C5CBFB500CFE5FC /* students1.png */; };
+		FADDD1A91C5CBFB500CFE5FC /* teacher1.png in Resources */ = {isa = PBXBuildFile; fileRef = FADDD1A31C5CBFB500CFE5FC /* teacher1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FACF67EF1C5BAFEC00EDFF85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACF67CA1C5BAFEC00EDFF85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACF67D11C5BAFEC00EDFF85;
+			remoteInfo = "Lesson 41-44 HW";
+		};
+		FACF67FA1C5BAFEC00EDFF85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACF67CA1C5BAFEC00EDFF85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACF67D11C5BAFEC00EDFF85;
+			remoteInfo = "Lesson 41-44 HW";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FACF67D21C5BAFEC00EDFF85 /* Lesson 41-44 HW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 41-44 HW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACF67D61C5BAFEC00EDFF85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FACF67D81C5BAFEC00EDFF85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FACF67D91C5BAFEC00EDFF85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FACF67DF1C5BAFEC00EDFF85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FACF67E21C5BAFEC00EDFF85 /* Lesson_41_44_HW.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lesson_41_44_HW.xcdatamodel; sourceTree = "<group>"; };
+		FACF67E41C5BAFEC00EDFF85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FACF67E71C5BAFEC00EDFF85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FACF67E91C5BAFEC00EDFF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACF67EE1C5BAFEC00EDFF85 /* Lesson 41-44 HWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 41-44 HWTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACF67F21C5BAFEC00EDFF85 /* Lesson_41_44_HWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson_41_44_HWTests.m; sourceTree = "<group>"; };
+		FACF67F41C5BAFEC00EDFF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACF67F91C5BAFEC00EDFF85 /* Lesson 41-44 HWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 41-44 HWUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACF67FD1C5BAFEC00EDFF85 /* Lesson_41_44_HWUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson_41_44_HWUITests.m; sourceTree = "<group>"; };
+		FACF67FF1C5BAFEC00EDFF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACF680E1C5BB55400EDFF85 /* Add_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Add_user.png; sourceTree = "<group>"; };
+		FACF680F1C5BB55400EDFF85 /* Add_user_24px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Add_user_24px.png; sourceTree = "<group>"; };
+		FACF68101C5BB55400EDFF85 /* Add_user_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Add_user_selected.png; sourceTree = "<group>"; };
+		FACF68111C5BB55400EDFF85 /* Courses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Courses.png; sourceTree = "<group>"; };
+		FACF68121C5BB55400EDFF85 /* Courses_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Courses_selected.png; sourceTree = "<group>"; };
+		FACF68131C5BB55400EDFF85 /* Students.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Students.png; sourceTree = "<group>"; };
+		FACF68141C5BB55400EDFF85 /* Students_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Students_selected.png; sourceTree = "<group>"; };
+		FACF68151C5BB55400EDFF85 /* Teacher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Teacher.png; sourceTree = "<group>"; };
+		FACF68161C5BB55400EDFF85 /* Teacher_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Teacher_selected.png; sourceTree = "<group>"; };
+		FACF68201C5BB89300EDFF85 /* APSharedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APSharedManager.h; sourceTree = "<group>"; };
+		FACF68211C5BB89300EDFF85 /* APSharedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APSharedManager.m; sourceTree = "<group>"; };
+		FACF68231C5BCC4800EDFF85 /* APCoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCoreDataViewController.h; sourceTree = "<group>"; };
+		FACF68241C5BCC4800EDFF85 /* APCoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCoreDataViewController.m; sourceTree = "<group>"; };
+		FACF68271C5BDA6000EDFF85 /* APStudents+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "APStudents+CoreDataProperties.h"; sourceTree = "<group>"; };
+		FACF68281C5BDA6000EDFF85 /* APStudents+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "APStudents+CoreDataProperties.m"; sourceTree = "<group>"; };
+		FACF68291C5BDA6000EDFF85 /* APStudents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APStudents.h; sourceTree = "<group>"; };
+		FACF682A1C5BDA6000EDFF85 /* APStudents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APStudents.m; sourceTree = "<group>"; };
+		FACF682B1C5BDA6000EDFF85 /* APTeachers+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "APTeachers+CoreDataProperties.h"; sourceTree = "<group>"; };
+		FACF682C1C5BDA6000EDFF85 /* APTeachers+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "APTeachers+CoreDataProperties.m"; sourceTree = "<group>"; };
+		FACF682D1C5BDA6000EDFF85 /* APTeachers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTeachers.h; sourceTree = "<group>"; };
+		FACF682E1C5BDA6000EDFF85 /* APTeachers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTeachers.m; sourceTree = "<group>"; };
+		FACF682F1C5BDA6000EDFF85 /* APCourses+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "APCourses+CoreDataProperties.h"; sourceTree = "<group>"; };
+		FACF68301C5BDA6000EDFF85 /* APCourses+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "APCourses+CoreDataProperties.m"; sourceTree = "<group>"; };
+		FACF68311C5BDA6000EDFF85 /* APCourses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCourses.h; sourceTree = "<group>"; };
+		FACF68321C5BDA6000EDFF85 /* APCourses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCourses.m; sourceTree = "<group>"; };
+		FACF68391C5BDB2000EDFF85 /* APStudentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APStudentsViewController.h; sourceTree = "<group>"; };
+		FACF683A1C5BDB2000EDFF85 /* APStudentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APStudentsViewController.m; sourceTree = "<group>"; };
+		FACF683D1C5BEA9C00EDFF85 /* APAddStudentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APAddStudentTableViewController.h; sourceTree = "<group>"; };
+		FACF683E1C5BEA9C00EDFF85 /* APAddStudentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APAddStudentTableViewController.m; sourceTree = "<group>"; };
+		FACF68401C5BF4CF00EDFF85 /* APChooseCourseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APChooseCourseTableViewController.h; sourceTree = "<group>"; };
+		FACF68411C5BF4CF00EDFF85 /* APChooseCourseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APChooseCourseTableViewController.m; sourceTree = "<group>"; };
+		FACF68431C5C086200EDFF85 /* APAddCourseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APAddCourseTableViewController.h; sourceTree = "<group>"; };
+		FACF68441C5C086200EDFF85 /* APAddCourseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APAddCourseTableViewController.m; sourceTree = "<group>"; };
+		FACF68461C5C0AB300EDFF85 /* APAddTeacherTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APAddTeacherTableViewController.h; sourceTree = "<group>"; };
+		FACF68471C5C0AB300EDFF85 /* APAddTeacherTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APAddTeacherTableViewController.m; sourceTree = "<group>"; };
+		FACF68491C5C0C5800EDFF85 /* APCoursesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCoursesTableViewController.h; sourceTree = "<group>"; };
+		FACF684A1C5C0C5800EDFF85 /* APCoursesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCoursesTableViewController.m; sourceTree = "<group>"; };
+		FACF684C1C5C0DB500EDFF85 /* APTeachersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTeachersTableViewController.h; sourceTree = "<group>"; };
+		FACF684D1C5C0DB600EDFF85 /* APTeachersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTeachersTableViewController.m; sourceTree = "<group>"; };
+		FADDD19E1C5CBFB500CFE5FC /* students2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = students2.png; sourceTree = "<group>"; };
+		FADDD19F1C5CBFB500CFE5FC /* teacher2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teacher2.png; sourceTree = "<group>"; };
+		FADDD1A01C5CBFB500CFE5FC /* courses1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = courses1.png; sourceTree = "<group>"; };
+		FADDD1A11C5CBFB500CFE5FC /* courses2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = courses2.png; sourceTree = "<group>"; };
+		FADDD1A21C5CBFB500CFE5FC /* students1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = students1.png; sourceTree = "<group>"; };
+		FADDD1A31C5CBFB500CFE5FC /* teacher1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teacher1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FACF67CF1C5BAFEC00EDFF85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACF67EB1C5BAFEC00EDFF85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACF67F61C5BAFEC00EDFF85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FACF67C91C5BAFEC00EDFF85 = {
+			isa = PBXGroup;
+			children = (
+				FACF67D41C5BAFEC00EDFF85 /* Lesson 41-44 HW */,
+				FACF67F11C5BAFEC00EDFF85 /* Lesson 41-44 HWTests */,
+				FACF67FC1C5BAFEC00EDFF85 /* Lesson 41-44 HWUITests */,
+				FACF67D31C5BAFEC00EDFF85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FACF67D31C5BAFEC00EDFF85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FACF67D21C5BAFEC00EDFF85 /* Lesson 41-44 HW.app */,
+				FACF67EE1C5BAFEC00EDFF85 /* Lesson 41-44 HWTests.xctest */,
+				FACF67F91C5BAFEC00EDFF85 /* Lesson 41-44 HWUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FACF67D41C5BAFEC00EDFF85 /* Lesson 41-44 HW */ = {
+			isa = PBXGroup;
+			children = (
+				FACF680D1C5BB55400EDFF85 /* Images */,
+				FACF67D81C5BAFEC00EDFF85 /* AppDelegate.h */,
+				FACF67D91C5BAFEC00EDFF85 /* AppDelegate.m */,
+				FACF683C1C5BEA6300EDFF85 /* ADD CONTROLLERS */,
+				FACF67DE1C5BAFEC00EDFF85 /* Main.storyboard */,
+				FACF68201C5BB89300EDFF85 /* APSharedManager.h */,
+				FACF68211C5BB89300EDFF85 /* APSharedManager.m */,
+				FACF68391C5BDB2000EDFF85 /* APStudentsViewController.h */,
+				FACF683A1C5BDB2000EDFF85 /* APStudentsViewController.m */,
+				FACF68491C5C0C5800EDFF85 /* APCoursesTableViewController.h */,
+				FACF684A1C5C0C5800EDFF85 /* APCoursesTableViewController.m */,
+				FACF684C1C5C0DB500EDFF85 /* APTeachersTableViewController.h */,
+				FACF684D1C5C0DB600EDFF85 /* APTeachersTableViewController.m */,
+				FACF68231C5BCC4800EDFF85 /* APCoreDataViewController.h */,
+				FACF68241C5BCC4800EDFF85 /* APCoreDataViewController.m */,
+				FACF68401C5BF4CF00EDFF85 /* APChooseCourseTableViewController.h */,
+				FACF68411C5BF4CF00EDFF85 /* APChooseCourseTableViewController.m */,
+				FACF68261C5BDA0D00EDFF85 /* Models */,
+				FACF67E41C5BAFEC00EDFF85 /* Assets.xcassets */,
+				FACF67E61C5BAFEC00EDFF85 /* LaunchScreen.storyboard */,
+				FACF67E91C5BAFEC00EDFF85 /* Info.plist */,
+				FACF67E11C5BAFEC00EDFF85 /* Lesson_41_44_HW.xcdatamodeld */,
+				FACF67D51C5BAFEC00EDFF85 /* Supporting Files */,
+			);
+			path = "Lesson 41-44 HW";
+			sourceTree = "<group>";
+		};
+		FACF67D51C5BAFEC00EDFF85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FACF67D61C5BAFEC00EDFF85 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FACF67F11C5BAFEC00EDFF85 /* Lesson 41-44 HWTests */ = {
+			isa = PBXGroup;
+			children = (
+				FACF67F21C5BAFEC00EDFF85 /* Lesson_41_44_HWTests.m */,
+				FACF67F41C5BAFEC00EDFF85 /* Info.plist */,
+			);
+			path = "Lesson 41-44 HWTests";
+			sourceTree = "<group>";
+		};
+		FACF67FC1C5BAFEC00EDFF85 /* Lesson 41-44 HWUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FACF67FD1C5BAFEC00EDFF85 /* Lesson_41_44_HWUITests.m */,
+				FACF67FF1C5BAFEC00EDFF85 /* Info.plist */,
+			);
+			path = "Lesson 41-44 HWUITests";
+			sourceTree = "<group>";
+		};
+		FACF680D1C5BB55400EDFF85 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FACF680E1C5BB55400EDFF85 /* Add_user.png */,
+				FACF680F1C5BB55400EDFF85 /* Add_user_24px.png */,
+				FACF68101C5BB55400EDFF85 /* Add_user_selected.png */,
+				FACF68111C5BB55400EDFF85 /* Courses.png */,
+				FACF68121C5BB55400EDFF85 /* Courses_selected.png */,
+				FACF68131C5BB55400EDFF85 /* Students.png */,
+				FACF68141C5BB55400EDFF85 /* Students_selected.png */,
+				FACF68151C5BB55400EDFF85 /* Teacher.png */,
+				FADDD19E1C5CBFB500CFE5FC /* students2.png */,
+				FADDD19F1C5CBFB500CFE5FC /* teacher2.png */,
+				FADDD1A01C5CBFB500CFE5FC /* courses1.png */,
+				FADDD1A11C5CBFB500CFE5FC /* courses2.png */,
+				FADDD1A21C5CBFB500CFE5FC /* students1.png */,
+				FADDD1A31C5CBFB500CFE5FC /* teacher1.png */,
+				FACF68161C5BB55400EDFF85 /* Teacher_selected.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FACF68261C5BDA0D00EDFF85 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FACF68271C5BDA6000EDFF85 /* APStudents+CoreDataProperties.h */,
+				FACF68281C5BDA6000EDFF85 /* APStudents+CoreDataProperties.m */,
+				FACF68291C5BDA6000EDFF85 /* APStudents.h */,
+				FACF682A1C5BDA6000EDFF85 /* APStudents.m */,
+				FACF682B1C5BDA6000EDFF85 /* APTeachers+CoreDataProperties.h */,
+				FACF682C1C5BDA6000EDFF85 /* APTeachers+CoreDataProperties.m */,
+				FACF682D1C5BDA6000EDFF85 /* APTeachers.h */,
+				FACF682E1C5BDA6000EDFF85 /* APTeachers.m */,
+				FACF682F1C5BDA6000EDFF85 /* APCourses+CoreDataProperties.h */,
+				FACF68301C5BDA6000EDFF85 /* APCourses+CoreDataProperties.m */,
+				FACF68311C5BDA6000EDFF85 /* APCourses.h */,
+				FACF68321C5BDA6000EDFF85 /* APCourses.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FACF683C1C5BEA6300EDFF85 /* ADD CONTROLLERS */ = {
+			isa = PBXGroup;
+			children = (
+				FACF68431C5C086200EDFF85 /* APAddCourseTableViewController.h */,
+				FACF68441C5C086200EDFF85 /* APAddCourseTableViewController.m */,
+				FACF683D1C5BEA9C00EDFF85 /* APAddStudentTableViewController.h */,
+				FACF683E1C5BEA9C00EDFF85 /* APAddStudentTableViewController.m */,
+				FACF68461C5C0AB300EDFF85 /* APAddTeacherTableViewController.h */,
+				FACF68471C5C0AB300EDFF85 /* APAddTeacherTableViewController.m */,
+			);
+			name = "ADD CONTROLLERS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FACF67D11C5BAFEC00EDFF85 /* Lesson 41-44 HW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACF68021C5BAFEC00EDFF85 /* Build configuration list for PBXNativeTarget "Lesson 41-44 HW" */;
+			buildPhases = (
+				FACF67CE1C5BAFEC00EDFF85 /* Sources */,
+				FACF67CF1C5BAFEC00EDFF85 /* Frameworks */,
+				FACF67D01C5BAFEC00EDFF85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lesson 41-44 HW";
+			productName = "Lesson 41-44 HW";
+			productReference = FACF67D21C5BAFEC00EDFF85 /* Lesson 41-44 HW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FACF67ED1C5BAFEC00EDFF85 /* Lesson 41-44 HWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACF68051C5BAFEC00EDFF85 /* Build configuration list for PBXNativeTarget "Lesson 41-44 HWTests" */;
+			buildPhases = (
+				FACF67EA1C5BAFEC00EDFF85 /* Sources */,
+				FACF67EB1C5BAFEC00EDFF85 /* Frameworks */,
+				FACF67EC1C5BAFEC00EDFF85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACF67F01C5BAFEC00EDFF85 /* PBXTargetDependency */,
+			);
+			name = "Lesson 41-44 HWTests";
+			productName = "Lesson 41-44 HWTests";
+			productReference = FACF67EE1C5BAFEC00EDFF85 /* Lesson 41-44 HWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FACF67F81C5BAFEC00EDFF85 /* Lesson 41-44 HWUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACF68081C5BAFEC00EDFF85 /* Build configuration list for PBXNativeTarget "Lesson 41-44 HWUITests" */;
+			buildPhases = (
+				FACF67F51C5BAFEC00EDFF85 /* Sources */,
+				FACF67F61C5BAFEC00EDFF85 /* Frameworks */,
+				FACF67F71C5BAFEC00EDFF85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACF67FB1C5BAFEC00EDFF85 /* PBXTargetDependency */,
+			);
+			name = "Lesson 41-44 HWUITests";
+			productName = "Lesson 41-44 HWUITests";
+			productReference = FACF67F91C5BAFEC00EDFF85 /* Lesson 41-44 HWUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FACF67CA1C5BAFEC00EDFF85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Alex;
+				TargetAttributes = {
+					FACF67D11C5BAFEC00EDFF85 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FACF67ED1C5BAFEC00EDFF85 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FACF67D11C5BAFEC00EDFF85;
+					};
+					FACF67F81C5BAFEC00EDFF85 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FACF67D11C5BAFEC00EDFF85;
+					};
+				};
+			};
+			buildConfigurationList = FACF67CD1C5BAFEC00EDFF85 /* Build configuration list for PBXProject "Lesson 41-44 HW" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FACF67C91C5BAFEC00EDFF85;
+			productRefGroup = FACF67D31C5BAFEC00EDFF85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FACF67D11C5BAFEC00EDFF85 /* Lesson 41-44 HW */,
+				FACF67ED1C5BAFEC00EDFF85 /* Lesson 41-44 HWTests */,
+				FACF67F81C5BAFEC00EDFF85 /* Lesson 41-44 HWUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FACF67D01C5BAFEC00EDFF85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACF67E81C5BAFEC00EDFF85 /* LaunchScreen.storyboard in Resources */,
+				FADDD1A61C5CBFB500CFE5FC /* courses1.png in Resources */,
+				FADDD1A91C5CBFB500CFE5FC /* teacher1.png in Resources */,
+				FACF68191C5BB55400EDFF85 /* Add_user_selected.png in Resources */,
+				FACF681C1C5BB55400EDFF85 /* Students.png in Resources */,
+				FADDD1A41C5CBFB500CFE5FC /* students2.png in Resources */,
+				FADDD1A71C5CBFB500CFE5FC /* courses2.png in Resources */,
+				FACF67E51C5BAFEC00EDFF85 /* Assets.xcassets in Resources */,
+				FACF681B1C5BB55400EDFF85 /* Courses_selected.png in Resources */,
+				FACF68171C5BB55400EDFF85 /* Add_user.png in Resources */,
+				FACF681D1C5BB55400EDFF85 /* Students_selected.png in Resources */,
+				FACF681E1C5BB55400EDFF85 /* Teacher.png in Resources */,
+				FACF68181C5BB55400EDFF85 /* Add_user_24px.png in Resources */,
+				FACF67E01C5BAFEC00EDFF85 /* Main.storyboard in Resources */,
+				FACF681A1C5BB55400EDFF85 /* Courses.png in Resources */,
+				FADDD1A81C5CBFB500CFE5FC /* students1.png in Resources */,
+				FACF681F1C5BB55400EDFF85 /* Teacher_selected.png in Resources */,
+				FADDD1A51C5CBFB500CFE5FC /* teacher2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACF67EC1C5BAFEC00EDFF85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACF67F71C5BAFEC00EDFF85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FACF67CE1C5BAFEC00EDFF85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACF68421C5BF4CF00EDFF85 /* APChooseCourseTableViewController.m in Sources */,
+				FACF684E1C5C0DB600EDFF85 /* APTeachersTableViewController.m in Sources */,
+				FACF68341C5BDA6000EDFF85 /* APStudents.m in Sources */,
+				FACF68331C5BDA6000EDFF85 /* APStudents+CoreDataProperties.m in Sources */,
+				FACF68451C5C086200EDFF85 /* APAddCourseTableViewController.m in Sources */,
+				FACF68361C5BDA6000EDFF85 /* APTeachers.m in Sources */,
+				FACF67E31C5BAFEC00EDFF85 /* Lesson_41_44_HW.xcdatamodeld in Sources */,
+				FACF67DA1C5BAFEC00EDFF85 /* AppDelegate.m in Sources */,
+				FACF68381C5BDA6000EDFF85 /* APCourses.m in Sources */,
+				FACF68251C5BCC4800EDFF85 /* APCoreDataViewController.m in Sources */,
+				FACF684B1C5C0C5800EDFF85 /* APCoursesTableViewController.m in Sources */,
+				FACF68351C5BDA6000EDFF85 /* APTeachers+CoreDataProperties.m in Sources */,
+				FACF683F1C5BEA9C00EDFF85 /* APAddStudentTableViewController.m in Sources */,
+				FACF68481C5C0AB300EDFF85 /* APAddTeacherTableViewController.m in Sources */,
+				FACF67D71C5BAFEC00EDFF85 /* main.m in Sources */,
+				FACF68221C5BB89300EDFF85 /* APSharedManager.m in Sources */,
+				FACF68371C5BDA6000EDFF85 /* APCourses+CoreDataProperties.m in Sources */,
+				FACF683B1C5BDB2000EDFF85 /* APStudentsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACF67EA1C5BAFEC00EDFF85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACF67F31C5BAFEC00EDFF85 /* Lesson_41_44_HWTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACF67F51C5BAFEC00EDFF85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACF67FE1C5BAFEC00EDFF85 /* Lesson_41_44_HWUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FACF67F01C5BAFEC00EDFF85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACF67D11C5BAFEC00EDFF85 /* Lesson 41-44 HW */;
+			targetProxy = FACF67EF1C5BAFEC00EDFF85 /* PBXContainerItemProxy */;
+		};
+		FACF67FB1C5BAFEC00EDFF85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACF67D11C5BAFEC00EDFF85 /* Lesson 41-44 HW */;
+			targetProxy = FACF67FA1C5BAFEC00EDFF85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FACF67DE1C5BAFEC00EDFF85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACF67DF1C5BAFEC00EDFF85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FACF67E61C5BAFEC00EDFF85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACF67E71C5BAFEC00EDFF85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FACF68001C5BAFEC00EDFF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FACF68011C5BAFEC00EDFF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FACF68031C5BAFEC00EDFF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lesson 41-44 HW/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Lesson-41-44-HW";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FACF68041C5BAFEC00EDFF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lesson 41-44 HW/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Lesson-41-44-HW";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FACF68061C5BAFEC00EDFF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lesson 41-44 HWTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Lesson-41-44-HWTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson 41-44 HW.app/Lesson 41-44 HW";
+			};
+			name = Debug;
+		};
+		FACF68071C5BAFEC00EDFF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lesson 41-44 HWTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Lesson-41-44-HWTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson 41-44 HW.app/Lesson 41-44 HW";
+			};
+			name = Release;
+		};
+		FACF68091C5BAFEC00EDFF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lesson 41-44 HWUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Lesson-41-44-HWUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lesson 41-44 HW";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FACF680A1C5BAFEC00EDFF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lesson 41-44 HWUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Lesson-41-44-HWUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lesson 41-44 HW";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FACF67CD1C5BAFEC00EDFF85 /* Build configuration list for PBXProject "Lesson 41-44 HW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACF68001C5BAFEC00EDFF85 /* Debug */,
+				FACF68011C5BAFEC00EDFF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACF68021C5BAFEC00EDFF85 /* Build configuration list for PBXNativeTarget "Lesson 41-44 HW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACF68031C5BAFEC00EDFF85 /* Debug */,
+				FACF68041C5BAFEC00EDFF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACF68051C5BAFEC00EDFF85 /* Build configuration list for PBXNativeTarget "Lesson 41-44 HWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACF68061C5BAFEC00EDFF85 /* Debug */,
+				FACF68071C5BAFEC00EDFF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACF68081C5BAFEC00EDFF85 /* Build configuration list for PBXNativeTarget "Lesson 41-44 HWUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACF68091C5BAFEC00EDFF85 /* Debug */,
+				FACF680A1C5BAFEC00EDFF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FACF67E11C5BAFEC00EDFF85 /* Lesson_41_44_HW.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FACF67E21C5BAFEC00EDFF85 /* Lesson_41_44_HW.xcdatamodel */,
+			);
+			currentVersion = FACF67E21C5BAFEC00EDFF85 /* Lesson_41_44_HW.xcdatamodel */;
+			path = Lesson_41_44_HW.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FACF67CA1C5BAFEC00EDFF85 /* Project object */;
+}
